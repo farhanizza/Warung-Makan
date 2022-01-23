@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+body {
+	margin: 0;
+	font-family: 'Poppins', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Navabar */
+
+.navbar {
+	background-color: #0d6efd;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+		monospace;
+}
+
+.menu {
+	cursor: pointer;
+}
+
+.hasil {
+	cursor: pointer;
+}
+
+@media screen and (max-height: 1000px) {
+	.hasil {
+		height: 650px;
+	}
+	.menu {
+		margin-top: 70px;
+		height: 900px;
+	}
+}
+
+.overflow-auto::-webkit-scrollbar {
+	display: none;
+}
